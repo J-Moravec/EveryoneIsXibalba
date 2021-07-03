@@ -596,5 +596,199 @@ Priests: Average."
 #end
 
 
+--------------------------------------------------------------------------------
+-- K'che'laj
+--------------------------------------------------------------------------------
+#newmonster
+#copystats 2682
+#copyspr 2682
+#name "K'che'laj Way"
+#researchbonus 0
+#end
+
+#newmonster
+#copystats 2715
+#copyspr 2715
+#name "K'che'laj Ajaw"
+#stealthy
+#end
+
+#newmonster
+#copystats 2716
+#copyspr 2716
+#name "K'che'laj K'uhul"
+#stealthy
+#clearmagic
+#magickskill 3 1 -- Earth 1
+#magickskill 5 1 -- Death 1
+#magickskill 6 2 -- Nature 2
+#magickskill 8 1 -- Holy 1
+#custommagic 13824 100 -- Water (512), Earth (1024), Death (4096) and Nature (8192)
+#end
+
+#newmonster
+#copystats 2735
+#copyspr 2735
+#name "K'che'laj Zotz Soldier"
+#cleararmor
+#armor 12 -- Scale Mail Hauberk
+#armor 119 -- Reinforced Leather Cap
+#end
+
+#newmonster
+#copystats 2731
+#copyspr 2731
+#name "K'che'laj Obsidian Warrior"
+#stealthy
+#armor 119 -- Reinforced Leather Cap
+#end
+
+#newmonster
+#copystats 2722
+#copyspr 2722
+#name "K'che'laj Dart Thrower"
+#stealthy
+#end
+
+#newmonster
+#copystats 2725
+#copyspr 2725
+#name "K'che'laj Spear Warrior"
+#stealthy
+#end
+
+#newmonster
+#copystats 2726
+#copyspr 2726
+#name "K'che'laj Club-Sword Warrior"
+#stealthy
+#end
+
+#newsite 1953 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
+#level 0 
+#rarity 5
+#path Earth
+#gems 2 3 -- Water 3
+#gems 3 2 -- Eart 2
+#gems 5 1 -- Death 1
+#name "The K'che'laj"
+#homecom 2719 -- Camazotz
+#homemon "K'che'laj Obsidian Warrior"
+#end
+
+#newnation
+#name "K'che'laj" 
+#epithet "Forest Uprising" -- FIXME
+#era 2 -- Middle age
+#summary "Race: Frog-like amphibious cave dwellers, prefers Heat scale +1.
+Military: Stealthy Muuch and Zotz
+Magic: Water, Nature, Earth, Death, Blood and some Air.
+Priests: Average."
+
+#brief "No brief"
+
+#descr "No description"
+
+#color 0.1 0.5 0.1
+
+#startsite "The K'che'laj"
+#fortera 1 -- Primitive fort
+#templepic 10 -- This is the graphic for temples, Forest Temple
+#idealcold -1 -- Use a negative to start in heat
+
+#homerealm 10 -- Default Gods
+#homerealm 6 -- Middle America Gods
+
+
+#addreccom "K'che'laj Way"
+#forestcom "K'che'laj Way"
+#addreccom "K'che'laj Ajaw"
+#uwcom "K'che'laj Ajaw"
+#addreccom "K'che'laj K'uhul"
+#uwcom "K'che'laj K'uhul"
+#cavecom 2719
+#forestcom 2720
+#forestcom 2728
+#forestcom 2733
+
+#addrecunit "K'che'laj Dart Thrower"
+#addrecunit "K'che'laj Spear Warrior"
+#addrecunit "K'che'laj Club-Sword Warrior"
+#forestrec 2727
+#addrecunit 2734
+#forestrec 2734
+#addrecunit 2735
+#forestrec 2735
+#forestrec "K'che'laj Zotz Soldier"
+
+
+#defcom1 "K'che'laj Ajaw"
+#defunit1 "K'che'laj Dart Thrower"
+#defmult1 10
+#defunit1b "K'che'laj Club-Sword Warrior"
+#defmult1b 10
+#defcom2 2733 -- Muuch Batab
+#defunit2 "K'che'laj Zotz Soldier"
+#defmult2 20
+
+#wallcom 2715 -- Muuch Ajaw
+#wallunit "K'che'laj Dart Thrower"
+#wallmult 10
+
+#startcom "K'che'laj Ajaw"
+#startscout 2732 -- Chak Muuch Assassin
+#startunittype1 "K'che'laj Club-Sword Warrior"
+#startunitnbrs1 10
+#startunittype2 "K'che'laj Zotz Soldier"
+#startunitnbrs2 20
+#end
+
+#selectspell 401
+#restricted "K'che'laj"
+#end
+
+#selectspell 390
+#restricted "K'che'laj"
+#end
+
+#selectspell 392
+#restricted "K'che'laj"
+#end
+
+#selectspell 393
+#restricted "K'che'laj"
+#end
+
+#selectspell 406
+#restricted "K'che'laj"
+#end
+
+#selectspell 407
+#restricted "K'che'laj"
+#end
+
+#selectspell 408
+#restricted "K'che'laj"
+#end
+
+#selectspell 410
+#restricted "K'che'laj"
+#end
+
+#selectspell 411
+#restricted "K'che'laj"
+#end
+
+#selectspell 412
+#restricted "K'che'laj"
+#end
+
+#selectspell 413
+#restricted "K'che'laj"
+#end
+
+#selectspell 414
+#restricted "K'che'laj"
+#end
 
 #end
