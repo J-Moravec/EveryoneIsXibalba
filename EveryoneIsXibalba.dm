@@ -638,7 +638,10 @@ Priests: Average."
 #copyspr 2731
 #name "K'che'laj Obsidian Warrior"
 #stealthy
+#cleararmor
 #armor 119 -- Reinforced Leather Cap
+#armor 206 -- Obsidian Cuirass
+#armor 105 -- Hide Shield
 #end
 
 #newmonster
@@ -857,7 +860,10 @@ Priests: Average."
 #name "Abyxian Smouldering One"
 #fireres 5
 #heat 3
+#cleararmor
 #armor 119 -- Half Helmet
+#armor 206 -- Obsidian Cuirass
+#armor 105 -- Hide Shield
 #end
 
 #newmonster
