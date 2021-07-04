@@ -892,8 +892,9 @@ Priests: Average."
 #copystats 2725 -- Muuch Warrior (spear)
 #spr1 "./EveryoneIsXibalba/Abyxian_Salamander_Rider_1.tga"
 #spr2 "./EveryoneIsXibalba/Abyxian_Salamander_Rider_2.tga"
+#name "Abyxian Salamander Rider"
 #fireres 5
-#mounted -- also: +2 encumberance, movement from salamander, salamander natural attack and heat aura, increase in barding and cost
+#mounted
 #mountedhumanoid
 #size 3
 #ressize 2
