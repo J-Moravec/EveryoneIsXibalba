@@ -205,8 +205,6 @@ But then by following the Voice From Above, the elders discovered remnants of a 
 #restricted "Ximoria"
 #end
 
-#end
-
 --------------------------------------------------------------------------------
 -- Stahlkrötenfabrik
 --------------------------------------------------------------------------------
@@ -789,6 +787,225 @@ Priests: Average."
 
 #selectspell 414
 #restricted "K'che'laj"
+#end
+
+--------------------------------------------------------------------------------
+-- Abyxia
+--------------------------------------------------------------------------------
+#newmonster
+#copystats 2714 -- Bacab
+#spr1 "./EveryoneIsXibalba/Abyxian_Flaming_Sanguine_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Flaming_Sanguine_2.tga"
+#name "Abyxian Flaming Sanguine"
+#fireres 5
+#clearmagic
+#magicskill 0 2 -- Fire 2
+#magicskill 5 1 -- Death 1
+#magicskill 7 3 -- Blood 3
+#magicskill 8 1 -- Holy 2
+#custommagic 21632 100 -- Fire (128), Earth (1024), Death (4096), Blood (16384)
+#custommagic 21632 10 -- Fire (128), Earth (1024), Death (4096), Blood (16384)
+#end
+
+#newmonster
+#copystats 2732 -- Chak Muuch Assassin
+#spr1 "./EveryoneIsXibalba/Abyxian_Chak_Slayer_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Chak_Slayer_2.tga"
+#name "Abyxian Flaming Sanguine"
+#fireres 5
+#poisonskin 0
+#end
+
+#newmonser
+#copystats 2715 -- Muuch Ajaw
+#spr1 "./EveryoneIsXibalba/Abyxian_Anointed_Ajaw_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Anointed_Ajaw_2.tga"
+#name "Abyxian Anointed Ajaw"
+#fireres 5
+#end
+
+#newmonster
+#copystats 2716 -- Muuch K'uhul
+#spr1 "./EveryoneIsXibalba/Abyxian_Warlock_Kuhul_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Warlock_Kuhul_2.tga"
+#name "Abyxian Warlock K'uhul"
+#fireres 5
+#clearmagic
+#magicskill 0 2 -- Fire 2
+#magicskill 5 1 -- Death 1
+#magicskill 7 1 -- Blood 1
+#magicskill 8 1 -- Holy 1
+#custommagic 21632 100 -- Fire (128), Earth (1024), Death (4096), Blood (16384)
+#end
+
+#newmonster
+#copystats 2717 -- Ah Ha'
+#spr1 "./EveryoneIsXibalba/Abyxian_Warlock_Apprentice_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Warlock_Apprentice_2.tga"
+#name "Abyxian Warlock Apprentice"
+#fireres 5
+#clearmagic
+#magicskill 3 1 -- Earth 1
+#magiskill 7 1 -- Blood 1
+#magicskill 8 1 -- Holy 1
+#end
+
+#newmonster
+#copystats 2729 -- Wo' Muuch
+#spr1 "./EveryoneIsXibalba/Abyxian_Smouldering_One_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Smouldering_One_2.tga"
+#name "Abyxian Smouldering One"
+#fireres 5
+#heat 3
+#armor 119 -- Half Helmet
+#end
+
+#newmonster
+#copystats 2730 -- Chak Muuch Dart Thrower
+#spr1 "./EveryoneIsXibalba/Abyxian_Chak_Dart_Thrower_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Chak_Dart_Thrower_2.tga"
+#name "Abyxian Chak Dart Thrower"
+#clearspec
+#amphibian
+#swimming
+#swampsurvival
+#darkvision 50
+#fireres 5
+#heat 1
+#end
+
+#newmonster
+#copystats 2730 -- Chak Muuch Obsidian Warrior
+#spr1 "./EveryoneIsXibalba/Abyxian_Chak_Warrior_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Chak_Warrior_2.tga"
+#name "Abyxian Chak Warrior"
+#clearspec
+#amphibian
+#swimming
+#swampsurvival
+#darkvision 50
+#fireres 5
+#heat 1
+#end
+
+#newmonster
+#copystats 2725 -- Muuch Warrior (spear)
+#spr1 "./EveryoneIsXibalba/Abyxian_Salamander_Rider_1.tga"
+#spr2 "./EveryoneIsXibalba/Abyxian_Salamander_Rider_2.tga"
+#fireres 5
+#mounted -- also: +2 encumberance, movement from salamander, salamander natural attack and heat aura, increase in barding and cost
+#mountedhumanoid
+#size 3
+#ressize 2
+#heat 6 -- Salamander heat aura
+#weapon 48 -- Fire Flare
+#enc 20 -- Salamander Encumberance
+#mapmove 4 -- Salamander Map Move
+#gcost 10060 -- Muuch Warrior -- 10 + Salamander -- 60
+#end
+
+#newsite 1954 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
+#name "The Abyxia"
+#level 0 
+#rarity 5
+#path Earth 
+#gems 0 2 -- Fire 2
+#gems 5 1 -- Death 1
+#gems 7 3 -- Blood 3
+#homecom "Abyxian Flaming Sanguine"
+#homemom "Abyxian Smouldering One"
+#end
+
+#newnation
+#name "Abyxia" 
+#epithet "The Price of Blood"
+#era 2 -- Middle age
+#summary "Race: Mutated fire-touched Atlanteans, prefers Heat scale +1.
+Military: Armoured Atlanteans, Salamander cavalry
+Magic: Blood, Fire, Death, Earth.
+Priests: Average."
+
+#brief "Mutated fire-touched Atlanteans"
+
+#descr "The cult of bloody sacrifice that formed was swift and devastating in its goal to make the magma streams run red with ever burning and spilled blood. It was then that the Zotz elder disappeared into the unknown. Eventually, when no zotz remained alive and most of the Muuch population sacrificed, the being that ruled this place as its own domain answered the call of blood. Rhuax, King of Magma, embraced the few surviving Muuch and seared a part of itself into their very being. Under their new master they prospered and multiplied for Rhuax still demanded blood until eventually the earth could hold them no longer and they erupted onto the surface to take it in Rhuax’ name."
+
+#flag "EveryoneIsXibalba/Abyxia.tga"
+#color 0.3 0.0 0.0
+
+#startsite "The Abyxia"
+#fortera 1 -- Primitive forts
+#templepic 10 -- This is the graphic for temples, Forest Temple
+#idealcold -1 -- Use a negative to start in heat
+
+#homerealm 10 -- Default Gods
+#homerealm 6 -- Middle America Gods
+
+#addreccom "Abyxian Chak Slayer"
+#addreccom "Abyxian Anointed Ajaw"
+#uwcom "Abyxian Anointed Ajaw"
+#addreccom "Abyxian Warlock K'uhul"
+#uwcom "Abyxian Warlock K'uhul"
+#addreccom "Abyxian Warlock Apprentice"
+#uwcom "Abyxian Warlock Apprentice"
+
+#addrecunit "Abyxian Chak Dart Thrower"
+#addrecunit "Abyxian Chak Warrior"
+#addrecunit "Abyxian Salamander Rider"
+
+#defcom1 "Abyxian Anointed Ajaw"
+#defunit1 "Abyxian Chak Warrior"
+#defmult1 10
+#defunit1b "Abyxian Chak Dart Thrower"
+#defmult1b 10
+#defcom2 2728 -- Muuch Batab
+#defunit2 "Abyxian Salamander Rider"
+#defmult2 2
+
+#wallcom "Abyxian Anointed Ajaw"
+#wallunit "Abyxian Chak Dart Thrower"
+#wallmult 10
+
+#startcom "Abyxian Anointed Ajaw"
+#startscout "Abyxian Chak Slayer"
+#startunittype1 "Abyxian Chak Warrior"
+#startunitnbrs1 10
+#startunittype2 "Abyxian Chak Dart Thrower"
+#startunitnbrs2 10
+#end
+
+#selectspell 469
+#restricted "Abyxia"
+#end
+
+#selectspell 397
+#restricted "Abyxia"
+#end
+
+#selectspell 402
+#restricted "Abyxia"
+#end
+
+#newspell
+#copyspell 403
+#path 0 7
+#pathlevel 0 6
+#path 1 0
+#pathlevel 1 3
+#school 6
+#researchlevel 8
+#onlyatsite "The Abyxia"
+#restricted "Abyxia"
+#fatigue 175
+#end
+
+#newspell
+#copyspell 413
+#path 0 7
+#pathlevel 0 4
+#school 6
+#researchlevel 7
+#restricted "Abyxia"
+#fatigue 150 -- 2.5x original cost (60)
 #end
 
 #end
