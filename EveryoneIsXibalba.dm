@@ -902,7 +902,7 @@ Priests: Average."
 #weapon 48 -- Fire Flare
 #weapon 643 -- Bronze Spear
 #enc 20 -- Salamander Encumberance
-#mapmove 4 -- Salamander Map Move
+#mapmove 14 -- Salamander Map Move
 #gcost 10060 -- Muuch Warrior -- 10 + Salamander -- 60
 #end
 
