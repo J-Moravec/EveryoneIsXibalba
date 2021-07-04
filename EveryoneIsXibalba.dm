@@ -617,10 +617,10 @@ Priests: Average."
 #name "K'che'laj K'uhul"
 #stealthy
 #clearmagic
-#magickskill 3 1 -- Earth 1
-#magickskill 5 1 -- Death 1
-#magickskill 6 2 -- Nature 2
-#magickskill 8 1 -- Holy 1
+#magicskill 3 1 -- Earth 1
+#magicskill 5 1 -- Death 1
+#magicskill 6 2 -- Nature 2
+#magicskill 8 1 -- Holy 1
 #custommagic 13824 100 -- Water (512), Earth (1024), Death (4096) and Nature (8192)
 #end
 
@@ -811,12 +811,12 @@ Priests: Average."
 #copystats 2732 -- Chak Muuch Assassin
 #spr1 "./EveryoneIsXibalba/Abyxian_Chak_Slayer_1.tga"
 #spr2 "./EveryoneIsXibalba/Abyxian_Chak_Slayer_2.tga"
-#name "Abyxian Flaming Sanguine"
+#name "Abyxian Chak Slayer"
 #fireres 5
 #poisonskin 0
 #end
 
-#newmonser
+#newmonster
 #copystats 2715 -- Muuch Ajaw
 #spr1 "./EveryoneIsXibalba/Abyxian_Anointed_Ajaw_1.tga"
 #spr2 "./EveryoneIsXibalba/Abyxian_Anointed_Ajaw_2.tga"
@@ -900,6 +900,7 @@ Priests: Average."
 #ressize 2
 #heat 6 -- Salamander heat aura
 #weapon 48 -- Fire Flare
+#weapon 643 -- Bronze Spear
 #enc 20 -- Salamander Encumberance
 #mapmove 4 -- Salamander Map Move
 #gcost 10060 -- Muuch Warrior -- 10 + Salamander -- 60
@@ -914,7 +915,7 @@ Priests: Average."
 #gems 5 1 -- Death 1
 #gems 7 3 -- Blood 3
 #homecom "Abyxian Flaming Sanguine"
-#homemom "Abyxian Smouldering One"
+#homemon "Abyxian Smouldering One"
 #end
 
 #newnation
