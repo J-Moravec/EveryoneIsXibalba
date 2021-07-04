@@ -802,7 +802,7 @@ Priests: Average."
 #magicskill 0 2 -- Fire 2
 #magicskill 5 1 -- Death 1
 #magicskill 7 3 -- Blood 3
-#magicskill 8 1 -- Holy 2
+#magicskill 8 2 -- Holy 2
 #custommagic 21632 100 -- Fire (128), Earth (1024), Death (4096), Blood (16384)
 #custommagic 21632 10 -- Fire (128), Earth (1024), Death (4096), Blood (16384)
 #end
