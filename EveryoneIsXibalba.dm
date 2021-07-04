@@ -846,7 +846,7 @@ Priests: Average."
 #fireres 5
 #clearmagic
 #magicskill 3 1 -- Earth 1
-#magiskill 7 1 -- Blood 1
+#magicskill 7 1 -- Blood 1
 #magicskill 8 1 -- Holy 1
 #end
 
