@@ -1209,3 +1209,376 @@ Priests: Average."
 #restricted "Jomuuch"
 #fatiguecost 7 -- 16/2.5 (original cost)
 #end
+
+--------------------------------------------------------------------------------
+-- Ulyset
+--------------------------------------------------------------------------------
+-- Flabby Flobber Spit
+#newweapon 1000
+#copyweapon 599
+#name "Corrosive Spit"
+#dmg 10 -- 15 -5 and all
+#range 15
+#nostr
+#end
+
+-- Flabby Flobber Bite
+#newweapon 1001
+#copyweapon 20
+#name "Bite"
+#dmg 17 -- 15 +2 and all that
+#nostr
+#end
+
+-- Pale Digger Bite
+#newweapon 1002
+#copyweapon 599
+#name "Corrosive Bite"
+#dmg 19 -- 17 +2 and all
+#nostr
+#bonus
+#pierce
+#def -1
+#nratt 1
+#secondaryeffect 604 -- Corrosion
+#end
+
+-- Arcane Crusher Tusk
+#newweapon 1003
+#copyweapon 614
+#name "Tusk"
+#dmg 20 -- 20 +0 and all
+#nostr
+#bonus
+#end
+
+-- Crustaceous Hunter Crab Claw
+#newweapon 1004
+#copyweapon 600
+#name "Crab Claw"
+#dmg 25 -- 20 +5 and all
+#nostr
+#bonus
+#end
+
+--- Red Rafter
+#newmonster
+#copystats 2725 -- Muuch Warrior (Bronze Scale, Bronze Spear)
+#spr1 "./EveryoneIsXibalba/Ulyset_Red_Rafter_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Red_Rafter_A.tga"
+#name "Red Rafter of Ulyset"
+#ressize 2
+#size 4
+#weapon 643 -- Bronze Spear
+#weapon 447 -- Venomous Bite
+#armor 136 -- Bronze Scale Hauberk
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#ap 14
+#mapmove 5
+#mr 7
+#enc 6
+#formationfighter 2
+#gcost 35
+#rpcost 10000
+#rcost 7
+#descr "One of the most notable creatures to survive the flooding of the Cavern Ark was the Fire Ant. Larger than a horse and significantly dumber than one, they still hold amazing survival instincts and when the water rose they bound together in a great mass and floated atop the water. Some drowned, still, but the colony survived. This same instinctual cooperation still stands even after they were tamed, and the so-called Rafters are excellent at working with each other to lethal effect. However, the rider has to devote a lot of energy and willpower to controlling the dumb beast and their willpower is weaker than normal when attacked by magical effects."
+#end
+
+--- Flabby Flobber
+#newmonster
+#copystats 2722 -- Muuch Dart Thrower
+#spr1 "./EveryoneIsXibalba/Ulyset_Flabby_Flobber_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Flabby_Flobber_A.tga"
+#name "Flabby Flobber of Ulyset"
+#ressize 2
+#size 4
+#weapon 1001 -- Bite
+#weapon 619 -- Obsidian Dart
+#weapon 1000 -- Corrosive Spit
+#armor 10 -- Leather Hauberk
+#armor 145 -- Mask
+#mounted
+#mountedhumanoid
+#coldblood -- not impactful for a ranged unit, but the CC has it normally
+#ap 8
+#mapmove 3
+#enc 7
+#gcost 20
+#rpcost 10000
+#rcost 5
+#descr "Cave cows are very… unique. Almost defenseless they must travel in huge herds and hope that whatever attacks them isn't too fast to dodge their admittedly quite deadly corrosive spit. They also are almost defenseless when in water, floating around and generally being useless. This was quite endearing to some Muuch, who tamed them and now ride them into battle as a powerful ranged force in support of Ulyset. Respected but joked about a lot, they have been given the name “Flobbers” due to the floppy nature of their mounts."
+#end
+
+--- Stinger Eater
+#newmonster
+#copystats 2729 -- Wo' Muuch
+#spr1 "./EveryoneIsXibalba/Ulyset_Stinger_Eater_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Stinger_Eater_A.tga"
+#name "Stinger Eater of Ulyset"
+#ressize 3
+#size 5
+#weapon 625 -- Obsidian Club Sword
+#weapon 236 -- Claw
+#armor 206 -- Obsidian Cuirass
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#poisonres 7
+#ap 8
+#mapmove 3
+#enc 6
+#gcost 65
+#rpcost 10000
+#rcost 12
+#descr "When the shamblers set out to tame creatures, they sought the largest and fiercest creatures. None of those that dwelled in the Flooded Cavern fit that description to an extremely stellar bar, so they searched other caverns, other passages. There they found Sacred Scorpions, the few that managed to escape with the original Zotz. These were more or less tamed, though due to many deaths the Shamblers cut off the stingers of the Scorpions and ate them. Many of those died, but the ones that were left had some resistance to poison. With the Scorpions tamed, the Shamblers returned astride the massive beasts and were hailed as those blessed by the Lord of Xibalba; not only enduring the taming process but also the consumption of the poison."
+#end
+
+--- Pat Pat
+#newmonster
+#copystats 2727 -- Muuch Jungle Warrior
+#spr1 "./EveryoneIsXibalba/Ulyset_Pat_Pat_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Pat_Pat_A.tga"
+#name "Pat Pat of Ulyset"
+#ressize 2
+#size 3
+#weapon 451 -- Obsidian Club Sword
+#weapon 237 -- Bite, technically 1 more damage than a reg Dire Wolf's but A. me lazy and B. meh
+#armor 10 -- Leather Hauberk
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#ap 28
+#mapmove 5
+#enc 4
+#gcost 22
+#rpcost 10000
+#rcost 7
+#descr "Some Muuch were ostracized from the caverns and fled into the jungles and forests. There they found huge beasts that were twice as vicious as a horse and much quieter too. The exiled Muuch tamed and mounted these Dire Wolves, soon returning as heroes to their settlements. They did not stay, having learned the treachery of the so called “stable” caste system in place. Now they live in small communities in forested areas, riding their Dire Wolves in almost complete silence and sometimes joining the armies of the true Lord of Xibalba as elite warriors called “Pat Pats”; a reference to the sound their Dire Wolves paws make when searching for belly rubs."
+#end
+
+--- Pale Digger
+#newmonster
+#copystats 2725 -- Muuch Warrior (Bronze Scale, Bronze Spear)
+#spr1 "./EveryoneIsXibalba/Ulyset_Pale_Digger_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Pale_Digger_A.tga"
+#name "Pale Digger of Ulyset"
+#ressize 2
+#size 4
+#weapon 643 -- Bronze Spear
+#weapon 1002 -- Corrosive Bite
+#armor 136 -- Bronze Scale Hauberk
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#siegebonus 10
+#mr 7
+#ap 5
+#mapmove 3
+#enc 7
+#coldblood
+#gcost 27
+#rpcost 10000
+#rcost 11
+#descr "The story of what Muuch decided to sit on the back of a large larva is long lost to time, though the tradition of taming Cave Grubs lives on through the work of the Pale Diggers. While on the battlefield Pale Diggers are not particularly fast, both because of their lack of long legs and their lack of warm blood, they have a tremendously strong bite and can tear down fortifications in a matter of months. In addition to this slow speed, Cave Grubs, like Fire Ants, need a lot of direction to get to battle and their riders are often distracted."
+#end
+
+--- Venom Glutton
+#newmonster
+#copystats 2715 -- Muuch Ajaw
+#spr1 "./EveryoneIsXibalba/Ulyset_Venom_Glutton_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Venom_Glutton_A.tga"
+#name "Venom Glutton of Ulyset"
+#ressize 3
+#size 5
+#weapon 625 -- Obsidian Club Sword
+#weapon 236 -- Claw
+#armor 206 -- Obsidian Cuirass
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#ap 8
+#mapmove 3
+#enc 6
+#gcost 140
+#rpcost 1
+#rcost 12
+#descr "Some Stinger Eaters advance to positions of greater religious and social power through continued feats of greatness. These commander priests of Ulyset are not stronger or smarter than the average Stinger Eater, but their social smarts are enough to carry them to greatness. The pampering they then receive is quite a lot for their previously poison resistant selves and soon their bodies grow unused to consuming poison."
+#end
+
+--- Pat Pat Fluffie
+#newmonster
+#copystats 2728 -- Muuch Batab
+#spr1 "./EveryoneIsXibalba/Ulyset_Pat_Pat_Fluffie_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Pat_Pat_Fluffie_A.tga"
+#name "Pat Pat Fluffie of Ulyset"
+#ressize 2
+#size 3
+#weapon 451 -- Obsidian Club Sword
+#weapon 237 -- Bite, technically 1 more damage than a reg Dire Wolf's but A. me lazy and B. meh
+#armor 12 -- Scale Mail Hauberk
+#armor 145 -- Mask
+#armor 105 -- Hide Shield
+#mounted
+#mountedhumanoid
+#ap 28
+#mapmove 5
+#enc 4
+#gcost 60
+#rpcost 1
+#rcost 7
+#descr "The Pat Pats are led by those among their number with the greatest mounts. The traditional measure of greatness is long, soft fur and loose skin. This makes for ideal belly rubs. Pat Pat Fluffies are not particularly adept at leadership, but they are excellent when leading raiding parties deep into enemy lands."
+#end
+
+--- Arcane Crusher
+#newmonster
+#copystats 2714 -- Bacab
+#spr1 "./EveryoneIsXibalba/Ulyset_Arcane_Crusher_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Arcane_Crusher_A.tga"
+#name "Arcane Crusher of Ulyset"
+#ressize 4
+#size 6
+#weapon 7 -- Quarterstaff
+#weapon 1003 -- Tusk
+#armor 145 -- Mask
+#mounted
+#mountedhumanoid
+#trample
+#clearmagic
+#magicskill 6 3 -- N3
+#magicskill 3 2 -- E2
+#magicskill 5 1 -- D1
+#custommagic 13824 100 -- WEDN
+#custommagic 13824 10 -- WEDN
+#ap 18
+#mapmove 5
+#enc 5
+#gcost 550
+#rpcost 4
+#rcost 10
+#descr "The Arcane Crushers of Ulyset are known not only for their complete mastery of nature magic, but also the huge elephants they ride into battle on. Most of their time they spend perfecting their art in nature magic, though they also apply rigorous training in their ability to learn death and earth magic. Being able to tame any animal is great and all, but sometimes you just need to cheat death and become tougher than the toughest giant."
+#end
+
+--- Crustaceous Hunter
+#newmonster
+#copystats 2717 -- Ah Ha'
+#spr1 "./EveryoneIsXibalba/Ulyset_Crustaceous_Hunter_I.tga"
+#spr2 "./EveryoneIsXibalba/Ulyset_Crustaceous_Hunter_A.tga"
+#name "Crustaceous Hunter of Ulyset"
+#ressize 2
+#size 4
+#weapon 671 -- Stone Dagger
+#weapon 1004 -- Crab Claw
+#armor 145 -- Mask
+#mounted
+#mountedhumanoid
+#ap 10
+#mapmove 4
+#enc 5
+#gcost 150
+#rpcost 2
+#rcost 6
+#descr "The Arcane Crushers of Ulyset are known not only for their complete mastery of nature magic, but also the huge elephants they ride into battle on. Most of their time they spend perfecting their art in nature magic, though they also apply rigorous training in their ability to learn death and earth magic. Being able to tame any animal is great and all, but sometimes you just need to cheat death and become tougher than the toughest giant."
+#end
+
+
+
+
+#newsite 1956 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
+#level 0 
+#rarity 5
+#path 2 -- Water? 
+#gems 2 3 -- 3 W
+#gems 3 1 -- 1 E
+#gems 5 1 -- 1 D
+#homemon "Stinger Eater of Ulyset"
+#homecom "Arcane Crusher of Ulyset"
+#name "The Cavern Ark"
+#end
+
+#newnation
+#name "Ulyset" 
+#epithet "Ark of the Jockeys"
+#era 2 -- Middle age
+#descr "When the flooding came, the Zotz acted quickly. With tens of thousands of heads put together, they made a plan to built a giant ark. They sealed the Cavern of the Sun, using earth magic and clever engineering to ensure the water level didn't rise within that massive cave. They then gathered all the creatures they could find before the flooding happened, jaguars and bats and scorpions and beast bats and cave crabs and fire ants and all kinds of critters. All in the name of the Lord of Xibalba they served, to ensure a rich life for when they would return. 
+
+This plan worked perfectly. While the rest of the traitorous Zotz died in service to other Lords, the Zotz that dwelled in the Cavern of the Sun thrived. Then the Muuch came, from the lake at the side of the cavern they crawled out. The Zotz were at first interested, then horrified as a few particularly massive Muuch used mighty earth and water magic to flood the cavern and make it their new home. The vast majority of Zotz fled, abanding the creatures to their fate. Some survived through whatever means they could, but most died. 
+
+Still, the Muuch were interested in these critters. A caste like culture soon evolved, with those taming the strange beasts ranking far above those who didn't. Before long, only the poorest serfs did not have some kind of large animal companion. The artisans of the newly christened nation of Ulyset soon saw a business opportunity and now all wear masks of the animal they own which is their favorite. 
+
+Then the Lord of Xibalba which the Zotz once prepared for returned. They surveyed the bustling city and decided it was good enough. So now they lead the nation into areas far above, where the sun always shines and there are so many more creatures to tame and ride." -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
+#summary "NEEEEEEEEEEEEEEEEEEEEEEEEEEEEERD
+COOL BUG FACT'S
+YABA,DABA,DOIE
+DER^GIUNJIBHV" -- Notice the string ends here and only here
+
+#brief "Xibalba, but everyone is mounted" -- No idea when this is used
+#color 0.1 1.0 0.1 -- This thing is the main background and what represents your nation on scoregraphs
+#secondarycolor 0.0 0.1 0.0 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
+
+#startsite "The Cavern Ark" -- You can also use the site number instead
+
+#addrecunit "Red Rafter of Ulyset"
+#addrecunit "Pale Digger of Ulyset"
+#addrecunit "Flabby Flobber of Ulyset"
+#forestrec "Pat Pat of Ulyset"
+
+#addreccom "Venom Glutton of Ulyset"
+#uwccom "Venom Glutton of Ulyset"
+#addreccom "Crustaceous Hunter of Ulyset"
+#uwcom "Crustaceous Hunter of Ulyset"
+#forestcom "Pat Pat Fluffie of Ulyset"
+
+#defcom1 "Venom Glutton of Ulyset"
+#defunit1 "Red Rafter of Ulyset"
+#defmult1 5 -- This many units will appear per 10 PD
+#defunit1b "Flabby Flobber of Ulyset"
+#defmult1b 5 -- This many units will appear per 10 PD
+#defcom2 2728 -- Muuch Batab
+#defunit2 "Pale Digger of Ulyset"
+#defmult2 5 -- This many units will appear per 10 PD at and after 20
+
+#wallcom "Venom Glutton of Ulyset"
+#wallunit "Flabby Flobber of Ulyset"
+#wallmult 5
+
+#startcom "Venom Glutton of Ulyset"
+#startscout 2732 -- Chak Muuch Assassin
+#startunittype1 "Red Rafter of Ulyset"
+#startunitnbrs1 5 -- This many of the aforementioned unit will appear
+#startunittype1b "Flabby Flobber of Ulyset"
+#startunitnbrs1b 5 -- This many of the aforementioned unit will appear
+
+#fortera 1 -- Early Age forts
+#idealcold -1 -- Use a negative to start in heat
+
+#homerealm 10 -- Default Gods
+#homerealm 6 -- Middle America Gods
+#templepic 10 -- This is the graphic for temples, Forest Temple
+#end
+
+#newspell
+#copyspell 251 -- Grow Fortress
+#descr "Through the use of a exceptionally powerful spell, a Arcane Crusher spellbinds a horde of animals to create a complete fortress in a matter of weeks, sturdy enough to rival frog made walls. This ritual can only be cast in forests or shallow seas, where nature has plenty of material to build from."
+#restricted "Ulyset"
+#end
+
+#newspell
+#copyspell 388 -- Brood of Garm
+#descr "The caster summons a pack of the huge wolves that roam the Jotun forests. The wolves are sacred due to the fact no frog has ever managed to ride one, and their howls can scare even a giant."
+#restricted "Ulyset"
+#end
+
+#newspell
+#copyspell 743 -- Grow Fortress
+#descr "The caster summons a pack of the huge bears. They aren't very good in army battles and their a pain in the ass to feed, but enemy mages seem to be confused by such large creatures and often prioritize killing them instead of literally anything else that would be more valuable."
+#restricted "Ulyset"
+#end
+
+#end -- end mod
