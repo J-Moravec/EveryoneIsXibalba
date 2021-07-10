@@ -821,6 +821,7 @@ Priests: Average."
 #name "Abyxian Chak Slayer"
 #fireres 5
 #poisonskin 0
+#heat 1
 #end
 
 #newmonster
@@ -1007,7 +1008,7 @@ Priests: Average."
 #researchlevel 8
 #onlyatsite "The Abyxia"
 #restricted "Abyxia"
-#fatigue 175
+#fatiguecost 175
 #end
 
 #newspell
@@ -1017,7 +1018,194 @@ Priests: Average."
 #school 6
 #researchlevel 7
 #restricted "Abyxia"
-#fatigue 150 -- 2.5x original cost (60)
+#fatiguecost 150 -- 2.5x original cost (60)
 #end
 
+--------------------------------------------------------------------------------
+-- Jomuuch
+--------------------------------------------------------------------------------
+#newmonster
+#copystats 2714 -- Bacab
+#copyspr 2714
+#name "Obsidian Daimyo of Jomuuch"
+#fireres 5
+#immortal
+#armor 129 -- Samurai Armor
+#clearmagic
+#magicskill 0 3 -- Fire 3
+#magicskill 3 2 -- Earth 2
+#magicskill 5 1 -- Death 1
+#magicskill 8 2 -- Holy 2
+#custommagic 13440 100 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
+#custommagic 13440 10 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
+#end
+
+#newmonster
+#copystats 2716 -- Muuch Kuhul
+#copyspr 2716
+#name "Master Sorcerer of Jomuuch"
+#fireres 5
+#clearmagic
+#magicskill 0 2 -- Fire 2
+#magicskill 3 1 -- Earth 1
+#magicskill 5 1 -- Death 1
+#magicskill 8 2 -- Holy 1
+#custommagic 13440 100 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
+#end
+
+#newmonster
+#copystats 2717 -- Ah Ha'
+#copyspr 2717
+#name "Sorcerer of Jomuuch"
+#fireres 5
+#clearmagic
+#magicskill 0 1 -- Fire 1
+#magicskill 5 1 -- Death 1
+#end
+
+#newmonster
+#copystats 2718 -- Ah Itz
+#copyspr 2718
+#name "Obsidian Priest of Jomuuch"
+#fireres 5
+#clearmagic
+#magicskill 0 1 -- Fire 1
+#magicskill 3 1 -- Earth 1
+#magicskill 8 2 -- Holy 1
+#end
+
+#newweapon 1020
+#copyweapon 621
+#name "Obsidian No-Dachi"
+#end
+
+#newmonster
+#copystats 2729 -- Wo Muuch
+#copyspr 2729
+#name "Obsidian Samurai of Jomuuch"
+#fireres 5
+#cleararmor
+#armor 130 -- Heavy Samurai Armor
+#clearweapons
+#weapon 1020 -- Obsidian No-Dachi
+#end
+
+#newmonster
+#copystats 2725
+#copyspr 2725
+#name "Yari Ashigaru of Jomuuch"
+#fireres 5
+#cleararmor
+#armor 129 -- Samurai Armor
+#armor 132 -- Kabuto
+#clearweapons
+#weapon 376 -- Yari
+#end
+
+#newmonster
+#copystats 2724
+#copyspr 2724
+#name "Katana Samurai of Jomuuch"
+#fireres 5
+#cleararmor
+#armor 130 -- heavy samurai armor
+#clearweapons
+#weapon 378 -- Katana
+#end
+
+#newsite 1955
+#name "The Castle of Jomuuch"
+#level 0
+#rarity 5
+#path Earth
+#gems 0 3 -- Fire 3
+#gems 3 2 -- Earth 2
+#gems 5 1 -- Death 1
+#homecom "Obsidian Daimyo of Jomuuch"
+#homecom 2719 -- Camazotz
+#homemon "Obsidian Samurai of Jomuuch"
+#end
+
+#newnation
+#name "Jomuuch" 
+#epithet "Obsidian Daimyo"
+#era 2 -- Middle age
+#summary "Race: Atlanteans under Dai-Oni influence, prefers Heat scale +1.
+Military: Armoured Atlanteans
+Magic: Fire, Earth, Death, Nature, Blood and some Air
+Priests: Average."
+
+#brief "Atlanteans under Dai-Oni influence"
+
+#descr "Description"
+
+#color 0.7 0.3 0.3
+
+#startsite "The Castle of Jomuuch"
+#fortera 1 -- Primitive forts
+#templepic 10 -- This is the graphic for temples, Forest Temple
+#idealcold -1 -- Use a negative to start in heat
+
+#homerealm 10 -- Default Gods
+#homerealm 6 -- Middle America Gods
+
+#addreccom "Master Sorcerer of Jomuuch"
+#uwcom "Master Sorcerer of Jomuuch"
+#addreccom "Sorcerer of Jomuuch"
+#addreccom "Obsidian Priest of Jomuuch"
+#uwcom "Obsidian Priest of Jomuuch"
+#cavecom 2719 -- Camazotz
+#forestcom 2682 -- Way
+#addreccom 2682 -- Way
+
+#addrecunit "Yari Ashigaru of Jomuuch"
+#addrecunit "Katana Samurai of Jomuuch"
+
+#defcom1 2715 -- Muuch Ajaw
+#defunit1 "Yari Ashigaru of Jomuuch"
+#defmult1 10
+#defunit1b "Katana Samurai of Jomuuch"
+#defmult1b 10
+#defcom2 2728 -- Muuch Batab
+#defunit2 "Yari Ashigaru of Jomuuch"
+#defmult2 10
+
+#wallcom 2715 -- Muuch Ajaw
+#wallunit 2722 -- Muuch Dart THrower
+#wallmult 10
+
+#startcom 2715 -- Ajaw
+#startscout 2732 -- Chak Muuch Assassin
+#startunittype1 "Yari Ashigaru of Jomuuch"
+#startunitnbrs1 10
+#startunittype2 "Katana Samurai of Jomuuch"
+#startunitnbrs2 10
+#end
+
+#selectspell 460
+#restricted "Jomuuch"
+#end
+
+#selectspell 458
+#restricted "Jomuuch"
+#end
+
+#selectspell 451
+#restricted "Jomuuch"
+#end
+
+#selectspell 457
+#restricted "Jomuuch"
+#end
+
+#newspell
+#copyspell 397
+#path 0 0
+#pathlevel 0 1
+#path 1 5
+#pathlevel 1 1
+#school 0
+#researchlevel 4
+#restricted "Jomuuch"
+#fatiguecost 7 -- 16/2.5 (original cost)
 #end
