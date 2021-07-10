@@ -9,7 +9,8 @@
 --------------------------------------------------------------------------------
 #newmonster 3500
 #copystats 2714 -- Bacab
-#copyspr 2714 -- Bacab
+#spr1 "./EveryoneIsXibalba/Ximorian_Elder_Thaumaturg_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Elder_Thaumaturg_2.tga"
 #name "Ximorian Elder Thaumaturg"
 #clearmagic
 #magicskill 4 3 -- Astral 3
@@ -24,7 +25,8 @@
 
 #newmonster
 #copystats 2716
-#copyspr 2716
+#spr1 "./EveryoneIsXibalba/Ximorian_Thaumaturg_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Thaumaturg_2.tga"
 #name "Ximorian Thaumaturg"
 #clearmagic
 #magicskill 3 1 -- Earth 1
@@ -43,7 +45,8 @@
 
 #newmonster
 #copystats 2716
-#copyspr 2716
+#spr1 "./EveryoneIsXibalba/Ximorian_Astromant_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Astromant_2.tga"
 #name "Ximorian Astromant"
 #clearmagic
 #magicskill 3 1 -- Earth 1
@@ -56,7 +59,8 @@
 
 #newmonster
 #copystats 2717
-#copyspr 2717
+#spr1 "./EveryoneIsXibalba/Ximorian_Acolyte_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Acolyte_2.tga"
 #name "Ximorian Acolyte"
 #clearmagic
 #magicskill 4 1 -- Astral 1
@@ -67,8 +71,8 @@
 
 #newmonster
 #copystats 2729
-#spr1 "./EveryoneIsXibalba/Ximorian_praetorian_guard_1.tga"
-#spr2 "./EveryoneIsXibalba/Ximorian_praetorian_guard_2.tga"
+#spr1 "./EveryoneIsXibalba/Ximorian_Praetorian_Guard_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Praetorian_Guard_2.tga"
 #name "Ximorian Praetorian Guard"
 #clearweapons
 #cleararmor
@@ -82,8 +86,8 @@
 #newmonster
 #copystats 2725
 -- #copyspr 2725
-#spr1 "./EveryoneIsXibalba/Ximorian_legionary_1.tga"
-#spr2 "./EveryoneIsXibalba/Ximorian_legionary_2.tga"
+#spr1 "./EveryoneIsXibalba/Ximorian_Legionary_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Legionary_2.tga"
 #name "Ximorian Legionary"
 #att 12
 #clearweapons
@@ -97,8 +101,8 @@
 
 #newmonster
 #copystats 2726
-#spr1 "./EveryoneIsXibalba/Ximorian_auxiliary_1.tga"
-#spr2 "./EveryoneIsXibalba/Ximorian_auxiliary_2.tga"
+#spr1 "./EveryoneIsXibalba/Ximorian_Auxiliary_1.tga"
+#spr2 "./EveryoneIsXibalba/Ximorian_Auxiliary_2.tga"
 #name "Ximorian Auxiliary"
 #prec 11
 #clearweapons
@@ -881,7 +885,7 @@ Priests: Average."
 #end
 
 #newmonster
-#copystats 2730 -- Chak Muuch Obsidian Warrior
+#copystats 2731 -- Chak Muuch Obsidian Warrior
 #spr1 "./EveryoneIsXibalba/Abyxian_Chak_Warrior_1.tga"
 #spr2 "./EveryoneIsXibalba/Abyxian_Chak_Warrior_2.tga"
 #name "Abyxian Chak Warrior"
