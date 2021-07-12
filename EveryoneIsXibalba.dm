@@ -475,7 +475,7 @@ Priests: Average."
 #end
 
 #newspell
-#copyspell 405
+#copyspell 409
 #school 5
 #path 0 6
 #restricted "Muuchburg"
@@ -499,15 +499,7 @@ Priests: Average."
 #restricted "Muuchburg"
 #end
 
-#selectspell 409
-#restricted "Muuchburg"
-#end
-
 #selectspell 410
-#restricted "Muuchburg"
-#end
-
-#selectspell 411
 #restricted "Muuchburg"
 #end
 
