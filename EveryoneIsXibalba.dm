@@ -119,7 +119,7 @@
 #name "The Once Forgotten City"
 #level 0 
 #rarity 5
-#path Earth 
+#path 4 -- Astral 
 #gems 4 3 -- Astral 3
 #gems 5 2 -- Death 2
 #gems 3 1 -- Earth 1
@@ -147,7 +147,7 @@ But then by following the Voice From Above, the elders discovered remnants of a 
 
 #startsite "The Once Forgotten City" -- there is another forgotten city
 #fortera 2 -- Standard Era 2 forts
-#templepic 10 -- This is the graphic for temples, Forest Temple
+#templepic 2 -- Greek style temple
 #idealcold -1 -- Use a negative to start in heat
 
 #homerealm 10 -- Default Gods
@@ -290,9 +290,9 @@ But then by following the Voice From Above, the elders discovered remnants of a 
 #newsite 1951 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 
 #rarity 5
-#path Earth 
-#gems 2 1 -- 3 W
-#gems 3 3 -- 1 E
+#path 3 -- Earth 
+#gems 2 2 -- 2 W
+#gems 3 3 -- 3 E
 #gems 6 1 -- 1 N
 #homemon "Stahlkröte Slayer"
 #homecom "Stahlkröte Bacab"
@@ -317,7 +317,7 @@ Priests: Average."
 
 #homerealm 10 -- Default Gods
 #homerealm 6 -- Middle America Gods
-#templepic 10 -- This is the graphic for temples, Forest Temple
+#templepic 32 -- Opulent Hall style temple
 #color 0 0.1 0.55
 #cavenation 2
 
@@ -514,10 +514,10 @@ Priests: Average."
 #newsite 1952 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 
 #rarity 5
-#path Earth
-#gems 3 2
-#gems 5 1
-#gems 6 3
+#path 6 -- Nature
+#gems 3 2 -- Earth 2
+#gems 5 1 -- Death 1
+#gems 6 3 -- Nature 3
 #homecom "Bacab of Muuchburg"
 #name "The Ministry of Plenty"
 #end
@@ -664,7 +664,7 @@ Priests: Average."
 #newsite 1953 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 
 #rarity 5
-#path Earth
+#path 2 -- Water
 #gems 2 3 -- Water 3
 #gems 3 2 -- Eart 2
 #gems 5 1 -- Death 1
@@ -913,7 +913,7 @@ Priests: Average."
 #name "The Abyxia"
 #level 0 
 #rarity 5
-#path Earth 
+#path 0 -- Fire -- exception 
 #gems 0 2 -- Fire 2
 #gems 5 1 -- Death 1
 #gems 7 3 -- Blood 3
@@ -939,7 +939,7 @@ Priests: Average."
 
 #startsite "The Abyxia"
 #fortera 1 -- Primitive forts
-#templepic 10 -- This is the graphic for temples, Forest Temple
+#templepic 0 -- Pyramid-style temple
 #idealcold -1 -- Use a negative to start in heat
 
 #homerealm 10 -- Default Gods
@@ -1106,10 +1106,10 @@ Priests: Average."
 #end
 
 #newsite 1955
-#name "The Castle of Jomuuch"
+#name "The Obsidian Castle"
 #level 0
 #rarity 5
-#path Earth
+#path 0 -- Fire
 #gems 0 3 -- Fire 3
 #gems 3 2 -- Earth 2
 #gems 5 1 -- Death 1
@@ -1133,9 +1133,9 @@ Priests: Average."
 
 #color 0.7 0.3 0.3
 
-#startsite "The Castle of Jomuuch"
+#startsite "The Obsidian Castle"
 #fortera 1 -- Primitive forts
-#templepic 10 -- This is the graphic for temples, Forest Temple
+#templepic 15 -- Far-East style temple
 #idealcold -1 -- Use a negative to start in heat
 
 #homerealm 10 -- Default Gods
@@ -1485,9 +1485,9 @@ Priests: Average."
 #newsite 1956 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 
 #rarity 5
-#path 2 -- Water? 
+#path 2 -- Water
 #gems 2 3 -- 3 W
-#gems 3 1 -- 1 E
+#gems 3 2 -- 1 E
 #gems 5 1 -- 1 D
 #homemon "Stinger Eater of Ulyset"
 #homecom "Arcane Crusher of Ulyset"
@@ -1552,7 +1552,7 @@ DER^GIUNJIBHV" -- Notice the string ends here and only here
 
 #homerealm 10 -- Default Gods
 #homerealm 6 -- Middle America Gods
-#templepic 10 -- This is the graphic for temples, Forest Temple
+#templepic 31 -- Cave Temple
 #end
 
 #newspell
