@@ -552,6 +552,7 @@ Priests: Average."
 #secondarycolor 0 0 0
 
 #addrecunit "Lumberjack of Muuchburg"
+#forestrec "Lumberjack of Muuchburg"
 #addrecunit "Forester of Muuchburg"
 #addrecunit "Hunter of Muuchburg"
 #addrecunit 2724 -- Muuch Warrior
@@ -562,8 +563,10 @@ Priests: Average."
 #addreccom "Ah Ha' of Muuchburg"
 #addreccom "Ah Itz of Muuchburg"
 #addreccom 2715
-#addreccom 2720
-#addreccom 2728
+#addreccom 2720 -- Muuch Scout
+#forestcom 2720
+#addreccom 2728 -- Muuch Batab
+#forestcom 2728
 
 #uwcom "K'uhul of Muuchburg"
 #uwcom "Ah Ha' of Muuchburg"
