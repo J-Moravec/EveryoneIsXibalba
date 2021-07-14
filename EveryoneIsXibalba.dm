@@ -1021,7 +1021,8 @@ Priests: Average."
 --------------------------------------------------------------------------------
 #newmonster
 #copystats 2714 -- Bacab
-#copyspr 2714
+#spr1 "./EveryoneIsXibalba/Jomuuch_Obsidian_Daimyo_1.tga"
+#spr2 "./EveryoneIsXibalba/Jomuuch_Obsidian_Daimyo_2.tga"
 #name "Obsidian Daimyo of Jomuuch"
 #fireres 5
 #immortal
@@ -1033,6 +1034,7 @@ Priests: Average."
 #magicskill 8 2 -- Holy 2
 #custommagic 13440 100 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
 #custommagic 13440 10 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
+#descr "Obsidian Daimyo’s were once leaders of the Alantain refugees who sought refuge in the flooded caves of Xibalba and sold their souls in a pact with the Oni Kings. Now, imbued with the power of Immortality and weilding new magic, they quickly united the refugees and established a kingdom in the collapsed caves and surrounding lands. Obsidian Daiymos preserve the knowledge gained from Dai Oni and craft the weapons of armour of Jomuuch, including the sacred Obsidianw No-Dachi wielded by the Obsidian Samurai."
 #end
 
 #newmonster
@@ -1044,13 +1046,13 @@ Priests: Average."
 #magicskill 0 2 -- Fire 2
 #magicskill 3 1 -- Earth 1
 #magicskill 5 1 -- Death 1
-#magicskill 8 2 -- Holy 1
+#magicskill 8 1 -- Holy 1
 #custommagic 13440 100 -- Fire (128), Earth (1024), Death (4096), Nature (8192)
 #end
 
 #newmonster
-#copystats 2717 -- Ah Ha'
-#copyspr 2717
+#copystats 2718 -- Ah Ha'
+#copyspr 2718
 #name "Sorcerer of Jomuuch"
 #fireres 5
 #clearmagic
@@ -1059,14 +1061,14 @@ Priests: Average."
 #end
 
 #newmonster
-#copystats 2718 -- Ah Itz
-#copyspr 2718
+#copystats 2717 -- Ah Itz
+#copyspr 2717
 #name "Obsidian Priest of Jomuuch"
 #fireres 5
 #clearmagic
 #magicskill 0 1 -- Fire 1
 #magicskill 3 1 -- Earth 1
-#magicskill 8 2 -- Holy 1
+#magicskill 8 1 -- Holy 1
 #end
 
 #newweapon 1020
@@ -1083,11 +1085,13 @@ Priests: Average."
 #armor 130 -- Heavy Samurai Armor
 #clearweapons
 #weapon 1020 -- Obsidian No-Dachi
+#descr "Obsidian Samurai are the faithful retainers and followers of the Obsidian Daimyo. They remember the time the pact was struck with the Oni Kings and personally pledged their loyalty to the Dai Oni. They are revered in Jomuuch and weild the Obsidian No-Dachi, enchanted swords made of obsidian and imbued with the power of Oni Kings."
 #end
 
 #newmonster
 #copystats 2725
-#copyspr 2725
+#spr1 "./EveryoneIsXibalba/Jomuuch_Yari_Ashigaru_1.tga"
+#spr2 "./EveryoneIsXibalba/Jomuuch_Yari_Ashigaru_2.tga"
 #name "Yari Ashigaru of Jomuuch"
 #fireres 5
 #cleararmor
@@ -1095,17 +1099,20 @@ Priests: Average."
 #armor 132 -- Kabuto
 #clearweapons
 #weapon 376 -- Yari
+#descr "Muuch Yari Ashigaru are the backbone of the Jomuuch's military, with the new weapons and armor as well as training, these common folk are highly effective on the field with their long pole arms."
 #end
 
 #newmonster
 #copystats 2724
-#copyspr 2724
+#spr1 "./EveryoneIsXibalba/Jomuuch_Katana_Samurai_1.tga"
+#spr2 "./EveryoneIsXibalba/Jomuuch_Katana_Samurai_2.tga"
 #name "Katana Samurai of Jomuuch"
 #fireres 5
 #cleararmor
 #armor 130 -- heavy samurai armor
 #clearweapons
 #weapon 378 -- Katana
+#descr "Muuch Katana Samurai are local nobility and wealthy citizens who can afford to commission weapons and armor from the Obsidian Daimyo in order to fight in battle with more protection and lethality. However, they are not part of the personal retinue of the Obsidian Daimyo so they are not given the obsidian weaponry that is awarded to their retainers."
 #end
 
 #newsite 1955
@@ -1132,7 +1139,7 @@ Priests: Average."
 
 #brief "Atlanteans under Dai-Oni influence"
 
-#descr "Description"
+#descr "Upon the fall of Xibalba when the caves flooded, the fleeing Atlanteans took refuge in the once great caves of the Zotz. After months of wandering in the collapsed cave system, the Muuch and Zotz came across group of Bakemono goblins, who were mysteriously trapped in the cave system as well. With the supplies dwindling, the leaders of Muuch were searching for a way out of the cave system. In that moment, an old Bakemono shaman offered to teach the leaders rituals to summon a great demons from his lands. Desperate for survival and lured by the great power, the leaders of Muuch performed these rituals and summoned forth an Oni King. The terrible demon opened a gate to Netherworld and offered a contract, he would share the secret of immortality to with the leaders and share his knowledge of weapons and magic of the Netherworld. In exchange, te Dai Oni required nothing less than ethernal servitude. The leaders accepted and together with the remaining Zotz and Muuch entered the gate to the Netherworld. There, the Dai Oni taught them the art of metalcrafting, fire magic and ate hearth and souls of the leaders, making them forever binded to the netherworld so that they can fulfill their side of the pledge of being ethernal servants of the Dai Oni."
 
 #color 0.7 0.3 0.3
 
