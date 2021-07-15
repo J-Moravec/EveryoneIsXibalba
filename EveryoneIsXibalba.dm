@@ -1583,4 +1583,24 @@ DER^GIUNJIBHV" -- Notice the string ends here and only here
 #restricted "Ulyset"
 #end
 
+#selectspell 390
+#restricted "Ulyset"
+#end
+
+#selectspell 392
+#restricted "Ulyset"
+#end
+
+#selectspell 393
+#restricted "Ulyset"
+#end
+
+#selectspell 413
+#restricted "Ulyset"
+#end
+
+#selectspell 414
+#restricted "Ulyset"
+#end
+
 #end -- end mod
