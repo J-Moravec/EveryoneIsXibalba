@@ -1003,7 +1003,7 @@ Priests: Average."
 #researchlevel 8
 #onlyatsite "The Abyxia"
 #restricted "Abyxia"
-#fatiguecost 175
+#fatiguecost 17500 -- 2.5x original cost (70)
 #end
 
 #newspell
@@ -1013,7 +1013,7 @@ Priests: Average."
 #school 6
 #researchlevel 7
 #restricted "Abyxia"
-#fatiguecost 150 -- 2.5x original cost (60)
+#fatiguecost 15000 -- 2.5x original cost (60)
 #end
 
 --------------------------------------------------------------------------------
@@ -1209,7 +1209,7 @@ Priests: Average."
 #school 0
 #researchlevel 4
 #restricted "Jomuuch"
-#fatiguecost 7 -- 16/2.5 (original cost)
+#fatiguecost 700 -- 16/2.5 (original cost)
 #end
 
 --------------------------------------------------------------------------------
