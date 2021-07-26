@@ -1078,7 +1078,8 @@ Priests: Average."
 
 #newmonster
 #copystats 2729 -- Wo Muuch
-#copyspr 2729
+#spr1 "./EveryoneIsXibalba/Jomuuch_Obsidian_Samurai_1.tga"
+#spr2 "./EveryoneIsXibalba/Jomuuch_Obsidian_Samurai_2.tga"
 #name "Obsidian Samurai of Jomuuch"
 #fireres 5
 #cleararmor
