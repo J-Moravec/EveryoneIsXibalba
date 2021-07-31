@@ -981,7 +981,9 @@ Priests: Average."
 #startunitnbrs2 10
 #end
 
-#selectspell 469
+#newspell
+#copyspell 469
+#onlyatsite "The Abyxia"
 #restricted "Abyxia"
 #end
 
