@@ -414,8 +414,9 @@ Priests: Average."
 #copyspr 2717
 #name "Ah Ha' of Muuchburg"
 #clearmagic
-#magicskill 5 1
-#magicskill 6 1
+#magicskill 3 1 -- Earth 1
+#magicskill 6 1 -- Nature 1
+#magicskill 8 1 -- Holy 1
 #stealthy 10 -- 40 + 10
 #end
 
@@ -424,9 +425,8 @@ Priests: Average."
 #copyspr 2718
 #name "Ah Itz of Muuchburg"
 #clearmagic
-#magicskill 3 1
-#magicskill 6 1
-#magicskill 8 1
+#magicskill 5 1 -- Death 1
+#magicskill 6 1 -- Nature 1
 #end
 
 #newmonster
