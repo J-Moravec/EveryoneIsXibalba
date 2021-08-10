@@ -1553,7 +1553,7 @@ DER^GIUNJIBHV" -- Notice the string ends here and only here
 #wallmult 5
 
 #startcom "Venom Glutton of Ulyset"
-#startscout 2732 -- Chak Muuch Assassin
+#startscout "Pat Pat Fluffie of Ulyset"
 #startunittype1 "Red Rafter of Ulyset"
 #startunitnbrs1 5 -- This many of the aforementioned unit will appear
 #startunittype2 "Flabby Flobber of Ulyset"
