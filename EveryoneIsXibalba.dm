@@ -436,7 +436,7 @@ Priests: Average."
 #clearweapons
 #weapon 17
 #size 1 -- Shrink: -1(1) size, -4(10) hp, -3(9) str, +1 (10) def, -2 (12) mapmove
-#drawsize -25
+#drawsize -35
 #hp 10
 #str 11 -- 9 + 2 str buff
 #def 10
@@ -451,7 +451,7 @@ Priests: Average."
 #weapon 24 -- longbow
 #weapon 643 -- Bronze Spear
 #size 1 -- Shrink: -1(1) size, -4(10) hp, -3(9) str, +1 (10) def, -2 (12) mapmove
-#drawsize -25
+#drawsize -35
 #hp 10
 #str 9
 #def 10
@@ -463,7 +463,7 @@ Priests: Average."
 #copyspr 2730
 #name "Hunter of Muuchburg"
 #size 1 -- Shrink: -1(1) size, -4(10) hp, -3(9) str, +1(10) def, -2 (12) mapmove
-#drawsize -25
+#drawsize -35
 #hp 10
 #str 9
 #def 12 -- 10 + 2 def buff
