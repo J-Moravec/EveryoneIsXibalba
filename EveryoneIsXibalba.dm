@@ -558,7 +558,6 @@ Priests: Average."
 #addrecunit 2724 -- Muuch Warrior
 #uwrec 2887 -- Lakam Ha' Warrior -- uwrec only
 
-#addreccom "Bacab of Muuchburg"
 #addreccom "K'uhul of Muuchburg"
 #addreccom "Ah Ha' of Muuchburg"
 #addreccom "Ah Itz of Muuchburg"
