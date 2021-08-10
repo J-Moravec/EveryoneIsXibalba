@@ -277,8 +277,8 @@ But then by following the Voice From Above, the elders discovered remnants of a 
 #end
 
 #newmonster
-#copystats 2718
-#copyspr 2718
+#copystats 2717
+#copyspr 2717
 #name "Stahlkröte Ah Ha'"
 #clearmagic
 #magicskill 2 1
@@ -1052,7 +1052,7 @@ Priests: Average."
 #end
 
 #newmonster
-#copystats 2718 -- Ah Ha'
+#copystats 2718 -- Ah Itz
 #copyspr 2718
 #name "Sorcerer of Jomuuch"
 #fireres 5
@@ -1062,7 +1062,7 @@ Priests: Average."
 #end
 
 #newmonster
-#copystats 2717 -- Ah Itz
+#copystats 2717 -- Ah Ha'
 #copyspr 2717
 #name "Obsidian Priest of Jomuuch"
 #fireres 5
