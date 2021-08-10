@@ -1556,8 +1556,8 @@ DER^GIUNJIBHV" -- Notice the string ends here and only here
 #startscout 2732 -- Chak Muuch Assassin
 #startunittype1 "Red Rafter of Ulyset"
 #startunitnbrs1 5 -- This many of the aforementioned unit will appear
-#startunittype1b "Flabby Flobber of Ulyset"
-#startunitnbrs1b 5 -- This many of the aforementioned unit will appear
+#startunittype2 "Flabby Flobber of Ulyset"
+#startunitnbrs2 5 -- This many of the aforementioned unit will appear
 
 #fortera 1 -- Early Age forts
 #idealcold -1 -- Use a negative to start in heat
