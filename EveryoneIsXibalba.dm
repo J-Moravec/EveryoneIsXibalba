@@ -1236,7 +1236,7 @@ Priests: Average."
 
 -- Pale Digger Bite
 #newweapon 1002
-#copyweapon 599
+#copyweapon 603
 #name "Corrosive Bite"
 #dmg 19 -- 17 +2 and all
 #nostr
