@@ -1,16 +1,4 @@
-# Everyone is Xibalba
-
-7 player nationbuilder where everyone plays customized Ma Xibalba.
-
-## Story
-The underworld land Xibalba is in turmoil. The seven rulers of Xibalba decided to play their traditional ballgame once again, but without the twin-heroes to compete against, they played against each other. As each of the rulers wanted to win, dirty tricks were used and what was supposed to be a friendly match turned into an all-out war where each ruler of Xibalba marched his minions against others.
-
-On the surface, the situation isn't much better. The great sky-ball and following flood put the nation of bats into disarray. Bat-caves were flooded and strange frog-like beings were washed into the caves. Many caves and underground passages collapsed and the once united nation was fractured. The seven rulers of Xibalba took over these fractions and formed them into their own image.
-
-Centuries passed and seven new nations are crawling from scattered passages to Xibalba into the overworld. The seven rulers of Xibalba, unable to beat each other in the underworld, decided that the only way they prove their superiority is by conquering the overworld as well. And there is no Pantokrator to stop them.
-
-
-## Rules
+# Rules
 What the lords of Xibalba give, they also take:
 
 * To change a unit, you need to remove a unit.
@@ -21,7 +9,7 @@ Some changes require more than one unit, commander or spell to be deleted. \
 There are limits on how much you can change. The total sum of changes per unit, commander or spells must not be over this limit.
 
 
-### National changes:
+## National changes:
 Each change cost at minimum 1 commander, 1 unit and 1 national spell. Large changes cost 2 of each. National changes should be the most limited ones. Two national changes are permitted. These changes should be documented in national lore.
 
 * Add a small ability (5 fire resist). Only abilities commonly occurring on recruitables can be used and only their minor version. These should be thematic.
@@ -37,7 +25,7 @@ Each change cost at minimum 1 commander, 1 unit and 1 national spell. Large chan
 * Increase fort technology by a single point. Can be used repeatedly.
 
 
-### Unit changes:
+## Unit changes:
 Each change costs at minimum 1 unit. Some might cost 2. Only three changes are allowed per unit. Changes with increased cost fall into this limit. For example, a unit cannot get both Full Plate Armour and Spetum as each item costs 2 points, which makes the total 4 points, despite there being only two changes.
 
 * Change or add a weapon or shield.
@@ -76,7 +64,7 @@ Spetum and Crossbow are eligible for 2 points.
     * Enlarge: +1 Size, +30% HP, +3 Str, -1 Def, +2 Map Move
     * Diminuition: -1 Size, -30% HP, -3 Str, +1 Def, -2 Map Move
 
-### Commander changes:
+## Commander changes:
 Each change cost at minimum 1 commander. Some might cost 2. Only three changes are allowed per commander. In addition to the changes identical to the unit changes, commanders can:
 
 * Reshuffle path (3W2E1D ->3D2E1W)
@@ -105,7 +93,7 @@ Each change costs at minimum 1 national spell. Some might cost 2. Only 3 changes
     * _For example, change Bind Jaguar Fiend from 1B1F to 1F1B. Another change is required as blood cannot be a secondary path._
 
 
-### PD and starting army:
+## PD and starting army:
 
 * You can swap units in PD and the starting army from the default Ma Xib to modified non-sacred recruit-anywhere units.
 * Use 10 Muuch soldiers and/or 20 Zotz soldiers where applicable, both in PD or starting army.
